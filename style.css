@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(75, 85, 85);
+}
+
+.ttt {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playersLbls {
+    margin-bottom: 6vh;
+    margin-top: 8vh;
+}
+
+.playersLbls > label {
+    color: white;
+    font-size: 2vh;
+}
+
+.playersLbls > input {
+    height: 3vh;
+    width: 14vw;
+    border-radius: 5vh;
+    padding-left: 1vw;
+    font-size: 1.5vh;
+}
+
+#lbl2 {
+    margin-left: 2vw;
+}
+
+.newGameBtn {
+    margin-bottom: 4vh;
+    height: 3vh;
+    width: 14vw;
+    border-radius: 5vh;
+    font-size: 1.5vh;
+}
+
+.gameBoard {
+    display:grid;
+    grid-template-rows: 10vw 10vw 10vw;
+    grid-template-columns: 10vw 10vw 10vw;
+    width: 30vw;
+    height: 30vw;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.gameBoard > button {
+    border: 0.15vw solid lightgrey;
+    height: 10vw;
+    background-color: bisque;
+    font-size: 3vw;
+}
+
+.gameBtn:hover {
+    background-color: rgb(225, 173, 104);
+}
+
+#1 {
+    border-radius: 6% 0 0 0;
+}
+
+#3 {
+    border-radius: 0 6% 0 0;
+}
+
+#7 {
+    border-radius: 0 0 0 6%;
+}
+
+#9 {
+    border-radius: 0 0 6% 0;
+}
