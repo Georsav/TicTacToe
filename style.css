@@ -3,11 +3,21 @@ body {
     background-color: rgb(75, 85, 85);
 }
 
+h1 {
+    color:bisque;
+    font-size: 3vh;
+}
+
 .ttt {
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+}
+
+.playerOrder, .gameResult {
+    color:bisque;
+    font-size: 2.5vh;
 }
 
 .playersLbls {
@@ -32,12 +42,16 @@ body {
     margin-left: 2vw;
 }
 
-.newGameBtn {
+.newGameBtn, .resetBtn {
     margin-bottom: 4vh;
     height: 3vh;
     width: 14vw;
     border-radius: 5vh;
     font-size: 1.5vh;
+}
+
+.resetBtn {
+    margin-top: 6vh;
 }
 
 .gameBoard {
