@@ -95,13 +95,13 @@ function btnClear() {
     }
 }
 
-function createPlayer(name) {
+/*function createPlayer(name) {
     const playerName = name;
     let playerScore = 0;
     const getScore = () => playerScore;
     const setScore = () => playerScore++;
     return {name, playerScore, getScore, setScore};
-}
+}*/
 
 function resultPrgr(name) {
     resultText.innerText = name + " wins!";
